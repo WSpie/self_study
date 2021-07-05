@@ -1,0 +1,15 @@
+2021-05-27 10:40:32,205:SATOSHI:Pokemon added: 25-Pikachu-Electric
+2021-05-27 10:40:32,205:SATOSHI:Pokemon added: 6-Charizard-Fire+Flying
+2021-05-27 10:40:42,517:SATOSHI:Pokemon added: 25-Pikachu-Electric
+2021-05-27 10:40:42,517:SATOSHI:Pokemon added: 6-Charizard-Fire+Flying
+2021-05-27 10:40:42,517:SATOSHI:Pokemon added: 0-None-None
+2021-05-27 11:25:18,703:SATOSHI:Error
+Traceback (most recent call last):
+  File "logger_study.py", line 26, in get_id
+    res = self.id / 0
+ZeroDivisionError: division by zero
+2021-05-27 11:25:18,703:SATOSHI:Error
+Traceback (most recent call last):
+  File "logger_study.py", line 26, in get_id
+    res = self.id / 0
+ZeroDivisionError: division by zero

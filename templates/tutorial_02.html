@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+        <h1>
+            Home page!
+        </h1>
+        <p>hello {{content}}</p>
+        <p>
+            {% for x in range(10) %}
+                {% if x % 2 == 0 %}
+                    <p>{{x}}</p>
+                {% else %}
+                    <p>{{10*x}}</p>
+                {% endif %}
+            {% endfor %}
+        </p>
+        <p>
+            {% for y in lst %}
+                <p>{{y}}</p>
+            {% endfor %}
+        </p>
+    </body>
+
+</html>
